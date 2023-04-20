@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# IDE-generated OBJ/BIN dirs
+**/obj
+**/bin

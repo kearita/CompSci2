@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1678221290 source:c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab5\lab5linkedstack\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	"Node.h"
+	"LinkedStack.h"
+
+1677715762 c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab5\lab5linkedstack\node.h
+
+1677715912 c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab5\lab5linkedstack\linkedstack.h
+	"StackInterface.h"
+
+1677715519 c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab5\lab5linkedstack\stackinterface.h
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1678219820 source:c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab5\lab5arraystack\main.cpp
+	<iostream>
+	<string>
+	<sstream>
+	"ArrayStack.h"
+
+1677779214 c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab5\lab5arraystack\arraystack.h
+	"StackInterface.h"
+	<cassert>
+
+1677622115 c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab5\lab5arraystack\stackinterface.h
+

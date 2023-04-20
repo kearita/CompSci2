@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1678648384 source:c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab6\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"LinkedQueue.h"
+
+1678648703 c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab6\linkedqueue.h
+	"QueueInterface.h"
+	"Node.h"
+
+1678648403 c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab6\queueinterface.h
+
+1678648519 c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab6\node.h
+

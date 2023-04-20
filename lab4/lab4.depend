@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1677198350 source:c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab4\node.cpp
+	"Node.h"
+
+1677198350 c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab4\node.h
+
+1677204109 source:c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab4\main.cpp
+	<iostream>
+	<fstream>
+	"Node.h"
+	"LinkedList.h"
+
+1677200051 source:c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab4\linkedlist.cpp
+	"LinkedList.h"
+	<iostream>
+	<fstream>
+	<sstream>
+
+1677198476 c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab4\linkedlist.h
+	"Node.h"
+
