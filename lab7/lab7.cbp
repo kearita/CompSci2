@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lab7" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/lab7" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="./" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/lab7" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Airport.cpp" />
+		<Unit filename="Airport.h" />
+		<Unit filename="BSTInterface.h" />
+		<Unit filename="BinarySearchTree.h" />
+		<Unit filename="EditFreightFinder.h" />
+		<Unit filename="EditNumFlightsFinder.h" />
+		<Unit filename="EditNumPassengersFinder.h" />
+		<Unit filename="ListAvgFlightsFinder.h" />
+		<Unit filename="ListAvgPassengersFinder.h" />
+		<Unit filename="MaxFreightFinder.h" />
+		<Unit filename="MaxNumFlightsFinder.h" />
+		<Unit filename="MaxNumPassengersFinder.h" />
+		<Unit filename="MinFreightFinder.h" />
+		<Unit filename="MinNumFlightsFinder.h" />
+		<Unit filename="MinNumPassengersFinder.h" />
+		<Unit filename="Node.h" />
+		<Unit filename="SearchByCodeFinder.h" />
+		<Unit filename="SearchByPassengersFinder.h" />
+		<Unit filename="SearchByStateFinder.h" />
+		<Unit filename="Visitor.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="us-airports-1.csv" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
