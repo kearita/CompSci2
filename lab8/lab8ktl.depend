@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1682006810 source:c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab8ktl\packet.cpp
+	"Packet.h"
+	<iostream>
+	<string>
+	<sstream>
+
+1682006721 c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab8ktl\packet.h
+	<iostream>
+	<string>
+
+1682006965 source:c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab8ktl\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"MaxHeap.h"
+	"Packet.h"
+
+1682006879 c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab8ktl\maxheap.h
+	"PriorityQueueInterface.h"
+	<iostream>
+
+1682000457 c:\users\keara\onedrive\desktop\ctp250\ctp250 assignments\lab8ktl\priorityqueueinterface.h
+
