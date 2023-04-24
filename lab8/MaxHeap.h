@@ -113,10 +113,10 @@ bool MaxHeap<T>::add(const T& newData) {
     while (currentPosition > 0 && !inPlace) {
         int parent = getParent(currentPosition);
         //cout << "this is parent" << parent << endl;
-        if (heapArray[currentPosition] < heapArray[parent])
+        if (heapArray[parent] > heapArray[currentPosition])
             inPlace = true;
         else {
-            swap(heapArray[currentPosition], heapArray[parent]);
+            swap(heapArray[parent], heapArray[currentPosition]);
             //cout << "swapping " << heapArray[currentPosition] << " and " << heapArray[parent] << endl;
             currentPosition = parent;
         }

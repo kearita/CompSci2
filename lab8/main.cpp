@@ -57,11 +57,16 @@ int main()
     packetHeap.add(line);
 
 
+    //packetHeap.displayHeap();
+
+    /*
     int size = packetHeap.getNumberOfNodes();
-    for (int i = 0; i < 35; i++) {
+    for (int i = 0; i < 5; i++) {
         cout << packetHeap.peek() << endl;
         packetHeap.remove();
     }
+    */
+
 
     //cout << packetHeap.peek();
     //packetHeap.displayHeap();
@@ -80,15 +85,16 @@ int main()
         node = packetHeap.peek();
         packetHeap.remove();
         cout << "Removing packet: " << node;
-        transferTime = (node.getFileSize() megaBitsValue) / transferSpeed;
+        transferTime = (node.getFileSize() * megaBitsValue) / transferSpeed;
         cout << "Time to transfer packet: "  << fixed << setprecision(3) << transferTime << " seconds" << endl;
         cout << "-------------------------------------------------" << endl;
     }
     */
 
 
+
     /*
-    3.**Displays the number of packets at each priority level**
+    //3.**Displays the number of packets at each priority level**
     Packet node = packetHeap.peek();
     while(!packetHeap.isEmpty()) {
 
@@ -153,6 +159,7 @@ int main()
     cout << "There are " << twoCounter << " packets at priority level 2" << endl;
     cout << "There are " << oneCounter << " packets at priority level 1" << endl;
     cout << "There are " << zeroCounter << " packets at priority level 0" << endl;
+    */
 
     /*
     cout << sevenCounter << endl;
@@ -166,7 +173,7 @@ int main()
     */
 
 
-    //**4. Displays the amount of time each priority level takes (average?)**
+    //**4. Displays the amount of time each priority level takes**
     /*
     Packet node = packetHeap.peek();
 
@@ -233,14 +240,14 @@ int main()
     oneAverage = oneTotalSum / oneCounter;
     zeroAverage = zeroTotalSum / zeroCounter;
 
-    cout << "Amount of time it takes priority level 7 takes to transfer packets is: " << fixed << setprecision(3) << sevenAverage << " seconds" << endl;
-    cout << "Amount of time it takes priority level 6 takes to transfer packets is: " << fixed << setprecision(3) << sixAverage << " seconds" << endl;
-    cout << "Amount of time it takes priority level 5 takes to transfer packets is: " << fixed << setprecision(3) << fiveAverage << " seconds" << endl;
-    cout << "Amount of time it takes priority level 4 takes to transfer packets is: " << fixed << setprecision(3) << fourAverage << " seconds" << endl;
-    cout << "Amount of time it takes priority level 3 takes to transfer packets is: " << fixed << setprecision(3) << threeAverage << " seconds" << endl;
-    cout << "Amount of time it takes priority level 2 takes to transfer packets is: " << fixed << setprecision(3) << twoAverage << " seconds" << endl;
-    cout << "Amount of time it takes priority level 1 takes to transfer packets is: " << fixed << setprecision(3) << oneAverage << " seconds" << endl;
-    cout << "Amount of time it takes priority level 0 takes to transfer packets is: " << fixed << setprecision(3) << zeroAverage << " seconds" << endl;
+    cout << "Amount of time it takes priority level 7 to transfer packets is: " << fixed << setprecision(3) << sevenTotalSum << " seconds" << endl;
+    cout << "Amount of time it takes priority level 6 to transfer packets is: " << fixed << setprecision(3) << sixTotalSum << " seconds" << endl;
+    cout << "Amount of time it takes priority level 5 to transfer packets is: " << fixed << setprecision(3) << fiveTotalSum << " seconds" << endl;
+    cout << "Amount of time it takes priority level 4 to transfer packets is: " << fixed << setprecision(3) << fourTotalSum << " seconds" << endl;
+    cout << "Amount of time it takes priority level 3 to transfer packets is: " << fixed << setprecision(3) << threeTotalSum << " seconds" << endl;
+    cout << "Amount of time it takes priority level 2 to transfer packets is: " << fixed << setprecision(3) << twoTotalSum << " seconds" << endl;
+    cout << "Amount of time it takes priority level 1 to transfer packets is: " << fixed << setprecision(3) << oneTotalSum << " seconds" << endl;
+    cout << "Amount of time it takes priority level 0 to transfer packets is: " << fixed << setprecision(3) << zeroTotalSum << " seconds" << endl;
 
 
 
@@ -248,7 +255,7 @@ int main()
     double totalTime = sevenTotalSum + sixTotalSum + fiveTotalSum + fourTotalSum +
                        threeTotalSum + twoTotalSum + oneTotalSum + zeroTotalSum;
 
-    cout << "The amount of time to transfer all packets: " << totalTime << " seconds" << endl;
+    cout << "\nThe amount of time to transfer all packets: " << totalTime << " seconds" << endl;
     */
 
     return 0;
